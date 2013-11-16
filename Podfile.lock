@@ -1,0 +1,25 @@
+PODS:
+  - libffi (3.0.13)
+  - OCHamcrest (1.9)
+  - OCMockito (0.23):
+    - OCHamcrest
+  - Typhoon (1.5.3):
+    - libffi (~> 3.0.13)
+
+DEPENDENCIES:
+  - libffi (~> 3.0.13)
+  - OCHamcrest (~> 1.9)
+  - OCMockito (~> 0.2)
+  - Typhoon (from `.`)
+
+EXTERNAL SOURCES:
+  Typhoon:
+    :path: .
+
+SPEC CHECKSUMS:
+  libffi: 64ef39353e747bb2b25e1026afd96a157bf9231c
+  OCHamcrest: f8393efd5a49d91879be573635d6183effacc0ab
+  OCMockito: 01560fd24319b85c223e10f52e2e41fbe2c6d434
+  Typhoon: de46b8c5a412c8687281c2cae6691a587fd5afc3
+
+COCOAPODS: 0.27.1

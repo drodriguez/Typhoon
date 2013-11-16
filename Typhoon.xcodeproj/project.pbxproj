@@ -138,6 +138,7 @@
 		75AB54C5EE26182440C36A60 /* TyphoonComponentFactory+TyphoonDefinitionRegisterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AB534C877C46FCE88630DD /* TyphoonComponentFactory+TyphoonDefinitionRegisterer.h */; };
 		75AB5A15113179167C7B5D49 /* TyphoonDefinitionRegisterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AB5622319F71FB5D11B005 /* TyphoonDefinitionRegisterer.h */; };
 		75AB5CE3FE790E6451690B50 /* TyphoonDefinitionRegisterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB596E7ACCCA9D39B9168B /* TyphoonDefinitionRegisterer.m */; };
+		8950B5E20F6F4003980FB9A6 /* libPods-Typhoon-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184896BD176249759346701E /* libPods-Typhoon-OSX.a */; };
 		B594F880174DF32E00BF5DC5 /* TyphoonParameterInjectedWithObjectInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = B594F87E174DF32800BF5DC5 /* TyphoonParameterInjectedWithObjectInstance.m */; };
 		BA79800736608E888611A7B3 /* TyphoonParameterInjectedByReference.h in Headers */ = {isa = PBXBuildFile; fileRef = BA798E2173A9C04887B7291B /* TyphoonParameterInjectedByReference.h */; };
 		BA798029705C5C0E65B08592 /* TyphoonParameterInjectedWithStringRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7987099DAD3FC6A242E863 /* TyphoonParameterInjectedWithStringRepresentation.m */; };
@@ -224,9 +225,11 @@
 		BA798FD2FBC0CA91B17AEEFC /* TyphoonDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BA798F905F4B216CEA7A4D8A /* TyphoonDefinition.m */; };
 		BA798FE29893B57DF87E1841 /* NSObject+TyphoonIntrospectionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BA798263556BF9A8D3735540 /* NSObject+TyphoonIntrospectionUtils.m */; };
 		BA798FEC1BFDDCDBE3183BD3 /* TyphoonUIColorTypeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7982FB7C9F0303FEF8E119 /* TyphoonUIColorTypeConverter.m */; };
+		E117F898E5B84AC89741D271 /* libPods-Typhoon-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0C546FAFDF444286F52086 /* libPods-Typhoon-iOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184896BD176249759346701E /* libPods-Typhoon-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Typhoon-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46025F2E17E3F6A40056A528 /* TyphoonViewControllerNibResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TyphoonViewControllerNibResolver.h; path = Source/ios/Factory/Config/Resolver/TyphoonViewControllerNibResolver.h; sourceTree = SOURCE_ROOT; };
 		46025F2F17E3F6A40056A528 /* TyphoonViewControllerNibResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TyphoonViewControllerNibResolver.m; path = Source/ios/Factory/Config/Resolver/TyphoonViewControllerNibResolver.m; sourceTree = SOURCE_ROOT; };
 		4656F79E17DB5B7C00EDDC23 /* TyphoonDefinition+Infrastructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TyphoonDefinition+Infrastructure.h"; sourceTree = "<group>"; };
@@ -272,6 +275,7 @@
 		6B3F399C16ABF8E5001A601C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6B3F399D16ABF8E5001A601C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6B3F39C116ABFAC3001A601C /* libTyphoon-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libTyphoon-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D9E33D709F4304B538D9B6 /* Pods-Typhoon-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Typhoon-iOS.xcconfig"; path = "Pods/Pods-Typhoon-iOS.xcconfig"; sourceTree = "<group>"; };
 		75AB534C877C46FCE88630DD /* TyphoonComponentFactory+TyphoonDefinitionRegisterer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TyphoonComponentFactory+TyphoonDefinitionRegisterer.h"; sourceTree = "<group>"; };
 		75AB5622319F71FB5D11B005 /* TyphoonDefinitionRegisterer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyphoonDefinitionRegisterer.h; sourceTree = "<group>"; };
 		75AB596E7ACCCA9D39B9168B /* TyphoonDefinitionRegisterer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyphoonDefinitionRegisterer.m; sourceTree = "<group>"; };
@@ -352,6 +356,8 @@
 		BA798F42839657672B3F7D49 /* TyphoonCollaboratingAssemblyProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyphoonCollaboratingAssemblyProxy.h; sourceTree = "<group>"; };
 		BA798F905F4B216CEA7A4D8A /* TyphoonDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyphoonDefinition.m; sourceTree = "<group>"; };
 		BA798FEB8B4BF76B9D0717DF /* TyphoonPropertyInjectedByReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyphoonPropertyInjectedByReference.h; sourceTree = "<group>"; };
+		ED0C546FAFDF444286F52086 /* libPods-Typhoon-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Typhoon-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F278270A2D014B06946FE342 /* Pods-Typhoon-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Typhoon-OSX.xcconfig"; path = "Pods/Pods-Typhoon-OSX.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -360,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BC6491917A20BD7007F0463 /* Cocoa.framework in Frameworks */,
+				E117F898E5B84AC89741D271 /* libPods-Typhoon-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B3F39C216ABFAC3001A601C /* Cocoa.framework in Frameworks */,
+				8950B5E20F6F4003980FB9A6 /* libPods-Typhoon-OSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +500,8 @@
 				6B3F397316ABF854001A601C /* Frameworks */,
 				6B3F397116ABF854001A601C /* Products */,
 				BA798F28A13AE6BA4386F62A /* assembly.xsd */,
+				F278270A2D014B06946FE342 /* Pods-Typhoon-OSX.xcconfig */,
+				72D9E33D709F4304B538D9B6 /* Pods-Typhoon-iOS.xcconfig */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -515,6 +525,8 @@
 				6B3F399B16ABF8E5001A601C /* AppKit.framework */,
 				6B3F399C16ABF8E5001A601C /* CoreData.framework */,
 				6B3F399D16ABF8E5001A601C /* Foundation.framework */,
+				184896BD176249759346701E /* libPods-Typhoon-OSX.a */,
+				ED0C546FAFDF444286F52086 /* libPods-Typhoon-iOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -907,9 +919,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BC6494517A20BD7007F0463 /* Build configuration list for PBXNativeTarget "Typhoon-iOS" */;
 			buildPhases = (
+				9A82D3850A7C4525A3B9BF8D /* Check Pods Manifest.lock */,
 				4BC648F817A20BD7007F0463 /* Sources */,
 				4BC6491817A20BD7007F0463 /* Frameworks */,
 				4BC6491A17A20BD7007F0463 /* Headers */,
+				62B914DDC0B54286A9CBBE69 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -924,9 +938,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B3F39C916ABFAC3001A601C /* Build configuration list for PBXNativeTarget "Typhoon-OSX" */;
 			buildPhases = (
+				DA220F9F35E840FAB123F015 /* Check Pods Manifest.lock */,
 				6B3F39BD16ABFAC3001A601C /* Sources */,
 				6B3F39BE16ABFAC3001A601C /* Frameworks */,
 				6B3F39BF16ABFAC3001A601C /* Headers */,
+				208DAC4E10A54DDE808B99BF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -964,6 +980,69 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		208DAC4E10A54DDE808B99BF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Typhoon-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B914DDC0B54286A9CBBE69 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Typhoon-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A82D3850A7C4525A3B9BF8D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA220F9F35E840FAB123F015 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4BC648F817A20BD7007F0463 /* Sources */ = {
@@ -1080,6 +1159,7 @@
 /* Begin XCBuildConfiguration section */
 		4BC6494617A20BD7007F0463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D9E33D709F4304B538D9B6 /* Pods-Typhoon-iOS.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1091,9 +1171,13 @@
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Typhoon.pch;
-				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos7.0;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -1103,6 +1187,7 @@
 		};
 		4BC6494717A20BD7007F0463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D9E33D709F4304B538D9B6 /* Pods-Typhoon-iOS.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1114,9 +1199,13 @@
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Typhoon.pch;
-				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos7.0;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -1179,6 +1268,7 @@
 		};
 		6B3F39CA16ABFAC3001A601C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F278270A2D014B06946FE342 /* Pods-Typhoon-OSX.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1189,7 +1279,6 @@
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Typhoon.pch;
-				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
@@ -1198,6 +1287,7 @@
 		};
 		6B3F39CB16ABFAC3001A601C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F278270A2D014B06946FE342 /* Pods-Typhoon-OSX.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1208,7 +1298,6 @@
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Typhoon.pch;
-				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
