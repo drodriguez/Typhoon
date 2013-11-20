@@ -37,7 +37,7 @@ if [ -n "$CHANGED_SOURCE_FILES" ]; then
     
   fi
 
-  RVM_COMMAND="$RVM all in $PROJECT_DIR do $COMMAND"
+  RVM_COMMAND="$RVM all in $REPO_ROOT do $COMMAND"
   echo "Running ${RVM_COMMAND}"
   $RVM_COMMAND
 
